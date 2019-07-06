@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Demo Table</title>
+		<meta charset="utf-8">
+	</head>
+	<body>
+		<table border="1">
+			<colgroup >
+				<col style="width: 200px"/>
+				<col style="width: 200px"/>
+				<col style="width: 200px"/>
+				<col style="width: 200px"/>
+			</colgroup>
+			<thead>
+	    		<tr>
+	    			<th>Column 1</th>
+	    			<th>Column 2</th>
+	    			<th>Column 3</th>
+	    			<th>Column 4</th>
+	    		</tr>
+	  		</thead>
+	  		<tfoot>
+	    		<tr class="2">
+	    			<td>Cell 3.1</td>
+	    			<td>Cell 3.2</td>
+	    			<td>Cell 3.3</td>
+	    			<td rowspan="2">Cell 3.4</td>	    			
+	    		</tr>
+	    		<tr>
+	    			<td>Cell 4.1</td>
+	    			<td>Cell 4.2</td>
+	    			<td>Cell 4.3</td>
+	    		</tr>
+	  		</tfoot>
+	  		<tbody>
+	    		<tr class="1">
+	    			<td>Cell 1.1</td>
+	    			<td colspan="2">Cell 1.2</td>
+	    			<td>Cell 1.4</td>
+	    		</tr>
+	    		<tr>
+	    			<td>
+	    				<table border="2">
+	    					<colgroup style="background-color: yellow">
+	    						<col style="width: 100px"/>
+	    						<col style="width: 100px"/>
+	    					</colgroup>
+	    					<thead>
+	    						<tr>
+					    			<th>Test 1</th>
+					    			<th>Test 2</th>
+					    		</tr>
+	    					</thead>
+	    				</table>
+	    			</td>
+	    			<td>Cell 2.2</td>
+	    			<td>Cell 2.3</td>
+	    			<td>Cell 2.4</td>
+	    		</tr>	    		
+	  		</tbody>
+		</table>
+		<hr>
+
+	</body>
+</html>
