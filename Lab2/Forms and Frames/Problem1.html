@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Last Name - Mozilla Chrome</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+		label{
+			text-align: right;
+		}
+	</style>
+</head>
+	<body>
+		<form name="Last Name - Mozilla Chrome" method="Post">
+			<table border="1">
+				<colgroup>
+					<col width="150px"/>
+					<col width="350px"/>
+				</colgroup>
+				<tr>
+					<td>
+						<label id="LName" class="LName">
+							<b>Last Name</b>
+						</label>
+					</td>
+					<td><input type="text" size="40" name="LName" required id="LName" value="" /></td>
+				</tr>
+				<tr>
+					<td><label><b>First Name</b></label></td>
+					<td>
+						<input type="text" size="40" name="FName" required id="FName" value="" />
+					</td>
+				</tr>
+				<tr>
+					<td><label><b>Address</b></label></td>
+					<td>
+						<textarea name="Address" rows="4" cols="40"></textarea>
+					</td>
+				</tr>
+				<tr>
+					<td><label><b>City:</b></label></td>
+					<td>
+						
+							<input type="text" name="City" id="City" value="" />
+							<b>State</b>
+							<input type="text" size="4" name="State" id="State" value="" />
+					</td>
+				</tr>
+				<tr>
+					<td><label><b>Zip/Postal Code</b></label></td>
+					<td>
+						<input type="text" size="10" name="Code" value="" />
+					</td>
+				</tr>
+				<tr>
+					<td><label><b>Country</b></label></td>
+					<td>
+						<select name="country">
+							<option value="Viet Nam">Vietnam</option>
+							<option value="China">China</option>
+							<option value="USA">USA</option>
+							<option value="UK">UK</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td><label><b>Phone (country code, area code, number)</b></label></td>
+					<td>
+						(+<input type="text" size="4" name="num" value="">)
+						<input type="text" size="4" name="num" value="">-
+						<input type="text" size="16" name="num" value="">
+					</td>
+				</tr>
+				<tr>
+					<td><label><b>E-mail</b></label></td>
+					<td>
+						<input type="E-mail" size="40" name="E-mail" required value="" />
+					</td>
+				</tr>
+				<tr>
+					<td><label><b>Birth date</b></label></td>
+					<td>
+						Month
+						<input type="text" size="2" name="month" required value="" />
+						&ensp;Day<input type="text" size="2" name="day" required value="" />
+						&ensp;Year(4 digit)<input type="text" size="4" name="year" required value="" />
+					</td>
+				</tr>
+				<tr>
+					<td><label><b>Gender</b></label></td>
+					<td>
+						<select>
+							<option value="Male" checked>Male</option>
+							<option value="Female">Female</option>
+							<option value="Other">Other</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td><label><b>Starting date</b></label></td>
+					<td>
+						<input type="radio" name="Statting date" value="Spring" checked> Spring 2006
+						<input type="radio" name="Statting date" value="Summer"> Summer 2006
+					</td>
+				</tr>
+				<tr>
+					<td><label><b>Comments/Questions</b></label></td>
+					<td>
+						<textarea name="Cmt" rows="4" cols="40"></textarea>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2" style=" text-align: center; background:#2EFEF7">
+						<button type="submit" name="Submit">Submit</button>
+						<button type="clear" name="Clear">Clear This Form</button>
+					</td>
+				</tr>
+			</table>
+			
+		</form>
+	</body>
+</html>
