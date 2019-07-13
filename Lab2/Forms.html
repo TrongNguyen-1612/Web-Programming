@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+	<html>
+	<head>
+		<title>Form</title>
+		<meta charset="utf-8">
+		<style type="text/css">
+			label{
+				font-weight: bold;color: red;
+			}
+			#GT{
+				font-weight: bold;color: blue;
+			}
+			.HB{
+				font-weight: bold;color: green;
+			}
+			label.Title{
+				font-weight: bold;color: green;
+			}
+		</style>
+	</head>
+	<body>
+		<h2>HTML Forms</h2>
+		<form name="myForm" method="get" action="http://vnexpress.net">
+			<table>
+				<colgroup>
+					<col width="200px"/>
+					<col width="200"/>
+				</colgroup>
+				<tr>
+					<td>
+						<label id="Title" class="Title">
+							<b>Title:</b>
+						</label>
+					</td>
+					<td><input type="text" name="Tiêu đề" required id="Tiêu đề" value="" /> <br><br></td>
+				</tr>
+				<tr>
+					<td>
+						<label>
+							<b>Nhận xét:</b>
+						</label>
+					</td>
+					<td>
+						<textarea name="Comments" rows="4" cols="30"></textarea><br><br>
+					</td>
+				</tr>
+				<tr>
+					<td id="GT"><b>Gender:</b></td>
+					<td>
+						<fieldset>
+							<legend>Gender:</legend>
+							<input type="radio" name="gender" value="Male" checked>
+							Male<br>
+							<input type="radio" name="gender" value="Female">Female<br>
+							<input type="radio" name="gender" value="other"> Other
+						</fieldset>
+					</td>
+				</tr>
+				<tr>
+					<td><b>Chuyên mục phản hồi:</b></td>
+					<td>
+						<select name="Phản hồi">
+							<option value="News">News</option>
+							<option value="thể thao">Thể thao</option>
+							<option value="Video">Video</option>
+							<option value="văn hóa">Văn hóa</option>
+						</select><br><br>
+					</td>
+				</tr>
+
+				<tr>
+					<td class="HB"><b>Hobbits:</b></td>
+					<td>
+						<fieldset>
+							<legend>Hobbits:</legend>
+							<input type="checkbox" name="hobbit 1" value="Music">Music<br>
+							<input type="checkbox" name="hobbit 2" value="Movies">Movies<br>
+							<input type="checkbox" name="hobbit 3" value="Sports">Sports<br>
+							<input type="checkbox" name="hobbit 4" value="Other">Other
+						</fieldset>
+					</td>
+				</tr>
+				<tr>
+					<td><b>E-mail:</b></td>
+					<td><input type="text" name="E-mail" required value="" /> <br><br></td>
+				</tr>
+
+			</table>
+			<button type="reset" name="resetBtn">Reset</button>
+			<button type="submit" name="Submit">Submit</button>
+		</form>
+		<div>
+	        <iframe name="iframeCom" width="854" height="480" src="https://www.youtube.com/embed/silgKdqMoRk" frameborder="0" allowfullscreen>
+	        </iframe>
+	    </div>
+	</body>
+</html>
