@@ -1,0 +1,21 @@
+table{
+	background-color: #A4A4A4;
+}
+.font{
+	font-family: sans-serif;
+}
+.yel{
+	color: yellow;
+}
+.active{
+	color: red;
+}
+.answer{
+	color: brown;
+}
+#green{
+	color: green;
+}
+th{
+	background-color: #2EFE2E;
+}
