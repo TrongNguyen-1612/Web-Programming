@@ -1,0 +1,82 @@
+body{
+	font-size: 13px;.
+	background-color: #BDBDBD;
+	padding: 5px;
+}
+.wrap {
+	max-width: 1280px;
+	margin-left: auto;
+	margin-right: auto;
+	/*border-radius: 10px;*/
+	padding: 10px;
+
+}
+
+.logo span{
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.group{
+	margin-top: 10px;
+	background-color: white;
+}
+
+	.group h4{
+		font-size: 18px;
+	    font-weight: bold;
+	    color: red;
+	    margin: 0px;
+	}
+	
+	.group a{
+		font-size: 14px;
+	    color: #333;
+	    text-decoration: none;
+	}
+
+.main {
+    background-color: white;
+}
+	.main a {
+	  text-decoration: none;
+	  display: inline-block;
+	  padding: 6px 14px;
+	  border: 1px solid;*/
+	}
+
+	.main a:hover {
+	  background-color: #ddd;
+	  color: black;
+	}
+
+	.main .previous {
+	  background-color: #fff;
+	  color: black;
+	}
+
+	.main .next {
+	  background-color: #fff;
+	  color: black;
+	}
+
+.col-8{
+	border: 1px solid;
+}
+	
+.row p{
+	padding: 10px;
+}
+
+.Title{
+	text-transform: uppercase;
+}
+
+.site{
+	border: 1px solid;
+	text-align: center;
+}
+
+button{
+	color: blue;
+}

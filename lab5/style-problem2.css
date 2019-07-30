@@ -1,0 +1,33 @@
+.wrap {
+	max-width: 1024px;
+	margin-left: auto;
+	margin-right: auto;
+	/*border: 1px solid #555;*/
+	border-radius: 10px;
+	background-color: yellow;
+	padding: 10px;
+}
+
+	.wrap .title{
+		font-size: 32px;
+		font-weight: bold;
+		padding-bottom: 10px;
+	}
+
+	.wrap div.group{
+		border: 2px solid red;
+		background-color: #fff;
+		padding: 20px;
+		margin-top: 30px;
+	}
+		.wrap div.group div.row .btn{
+			float: right;
+			text-align: right;
+			padding-top: 20px;
+		}
+button{	
+	background: rgb(125,50,50);
+	background: linear-gradient(90deg, rgba(125,50,50,1) 0%, rgba(184,30,30,1) 0%, rgba(255,0,0,1) 22%, rgba(230,14,14,1) 100%, rgba(0,212,255,1) 100%, rgba(0,212,255,1) 100%);
+	color: #fff;
+	padding: 0px 10px 0px 20px;
+}
